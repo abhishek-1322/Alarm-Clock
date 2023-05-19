@@ -82,6 +82,7 @@ function createAlarm() {
   hours.value = "00";
   minutes.value = "00";
   seconds.value = "00";
+  alert("Alarm set");
   renderAlarm();
 }
 // rendering all  alarms
